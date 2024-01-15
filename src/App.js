@@ -31,13 +31,12 @@ function App() {
     <form class="d-flex form-inline mx-auto my-2">
     <input class="form-control me-auto rounded-pill" type="search" placeholder="Q    Search store" aria-label="Search"/>
     </form>
-    <a class="text-white text-decoration-none" href="#">Friends</a>
-    
-    <button class="btn btn-outline-success" type="submit">♡</button>
-    <button class="btn btn-outline-success" type="submit">🛒</button>
-    <div class="dropdown">
+    <a class="friends text-white text-decoration-none" href="#">Friends</a>
+    <button class="button button1">♡</button>
+    <button class="button button2">🛒</button>
+<div class="dropdown">
   <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-  👤
+    Dropdown button
   </button>
   <ul class="dropdown-menu">
     <li><a class="dropdown-item" href="#">Action</a></li>
@@ -45,7 +44,6 @@ function App() {
     <li><a class="dropdown-item" href="#">Something else here</a></li>
   </ul>
 </div>
-
   </div>
 </nav>
 
